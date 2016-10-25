@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.projet.al_faddi.track.MainActivity">
+
+    <Button
+        android:id="@+id/creer_compte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="@string/creer_compte" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/email"
+        android:textSize="@dimen/normal_text_size"
+        android:textColor="@color/blackColor" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/normal_padding"
+        android:text="@string/password"
+        android:textSize="@dimen/normal_text_size"
+        android:textColor="@color/blackColor" />
+
+    <EditText
+        android:id="@+id/user_password"
+        android:layout_width="@dimen/large_padding"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="@string/connect" />
+
+</LinearLayout>

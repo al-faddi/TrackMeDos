@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_person"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="Ajouter une cible" />
+        <item
+            android:id="@+id/nav_Listperson"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Ajouter une cible" />
+        <item
+            android:id="@+id/nav_loca"
+            android:icon="@drawable/ic_tap_and_play_black_24dp"
+            android:title="Donner ma position" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_tap_and_play_black_24dp"
+            android:title="Coordonnées Position" />
+        <item
+            android:id="@+id/nav_suivre"
+            android:icon="@drawable/ic_add_location_black_24dp"
+            android:title="Suivre une cible" />
+
+    </group>
+
+
+
+</menu>

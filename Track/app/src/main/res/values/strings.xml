@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Track</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--ancienne ressouce -->
+    <string name="creer_compte">Creer un compte</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de Passe</string>
+    <string name="Cpassword">Confirmer le Mot de Passe</string>
+    <string name="connect">Connexion</string>
+    <string name="validat">Valider</string>
+    <string name="notif">Notifications</string>
+    <string name="erreur_mail">le format de email est incorrecte</string>
+    <string name="email_password_vide">Veuillez renseigner les champs !!!</string>
+    <string name="hint_mail">adresse email de utilisateur</string>
+</resources>
